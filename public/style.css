@@ -1,0 +1,23 @@
+.container {
+  gap: 40px;
+}
+
+.card {
+  width: 18rem;
+  height: 50rem;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100px;
+}
+
+.card-body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
